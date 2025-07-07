@@ -41,9 +41,7 @@ Exemplo:
 Funcionario e Gerente usam a mesma interface. Você pode chamar exibirInformacoes() nos dois, mesmo o gerente tendo vários subordinados.
 
 **4. Qual padrão você usaria para adicionar funcionalidades extras a um componente visual?**
-👉 Decorator
-Ele deixa você encapar um componente com outros que adicionam coisas novas (como borda, cor, rolagem, etc), sem mexer no código original.
+Decorator: Ele deixa você encapar um componente com outros que adicionam coisas novas (como borda, cor, rolagem, etc), sem mexer no código original.
 
 **5. Em qual padrão você trataria objetos e coleções de objetos da mesma maneira?**
-👉 Composite
-Você usa o mesmo método para lidar com um único objeto (como um funcionário) ou com uma estrutura com muitos (como um gerente com subordinados).
+Composite: Você usa o mesmo método para lidar com um único objeto (como um funcionário) ou com uma estrutura com muitos (como um gerente com subordinados).
