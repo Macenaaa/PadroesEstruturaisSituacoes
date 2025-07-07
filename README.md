@@ -27,10 +27,12 @@ O Decorator é usado para adicionar funcionalidades a um objeto sem mudar sua cl
 Exemplo:
 Você tem um relatório simples. Quer adicionar cabeçalho, rodapé, assinatura, etc.
 
+```
 Relatorio rel = new RelatorioSimples();
 rel = new Cabecalho(rel);
 rel = new Assinatura(rel);
 System.out.println(rel.gerar());
+```
 
 
 **3. Por que o padrão Composite facilita a manipulação de estruturas hierárquicas?**
